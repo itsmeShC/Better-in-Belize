@@ -1,0 +1,285 @@
+html,body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.margin0{
+    margin: 0!important;
+}
+
+.padding0{
+    padding: 0!important;
+}
+
+.center{
+    text-align: center!important;
+}
+
+.white{
+    color: #fff!important;
+}
+
+.blue{
+    color: rgb(54, 78, 129)
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.gray{
+    color:#555!important;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-40{
+    margin-top: 40px!important;
+}
+
+.mt-60{
+    margin-top: 60px!important;
+}
+
+.img-responsive{
+    height: 100%;
+    width: 100%;
+}
+
+.bg-white{
+    background: #fff!important;
+}
+
+.bg-d{
+    background: #333!important;
+}
+
+.bg-gray{
+    background: #e5e5e5!important;
+}
+
+.logo{
+    display: flex;
+    justify-content: center!important;
+}
+
+.bg-sec{
+    position: relative;
+    height: 650px;
+    width: 100%;
+    background: url('images/bg1.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-sec .overlay{
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.bg-sec-wrap{
+    padding: 1.5em 0;
+    max-width: 745px;
+}
+
+.num-sec h3{
+    color: #fff;
+    background: #000;
+    display: inline;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+
+
+
+.form-sec{
+    background: rgba(255, 255, 255, 0.6);
+    min-height: auto;
+    width: 100%;
+    border-radius: 1.5em;
+    padding: 0.8em 2em;
+}
+
+.form-sec h4{
+    display: inline;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(221,162,10);
+    background: rgba(0,0,0, 0.6);
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-f{
+    border-style: solid;
+    border-radius: 77px;
+    z-index: 67;
+    width: 244px;
+    height: 53px;
+    background: rgba(33,150,16,0.7);
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    border-width: 1px;
+    border-color: #fcf7f7;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 900;
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.btn-f:hover{
+    background: rgba(244,123,96,0.9);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.cont-sec{
+    padding: 1.5em 0;
+}
+
+.cont-img-c{
+    margin: 1em;
+}
+
+.cont-sec-c ul{
+    display: flex;
+}
+
+.cont-sec-c ul li{
+    list-style: none;
+    color: #555;
+    display: flex;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.cont-sec-c ul li img{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.img-post{
+    height: 258px;
+    width: 100%;
+    border: 1.5px solid #000;
+    border-radius: .25em;
+}
+
+.cont-sec-o{
+    width: 100%;
+}
+
+.info-sec{
+    display: block;
+    background: rgba(255,255,255,1);
+    background: -webkit-linear-gradient(#0e66a0, #60a522);
+    background: -moz-linear-gradient(#0e66a0, #60a522);
+    background: linear-gradient(#0e66a0, #60a522);
+    background: -ms-linear-gradient(#0e66a0, #60a522);
+    background: -o-linear-gradient(#0e66a0, #60a522);
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    padding: 3em 1em 4.5em 1em;
+    position: relative;
+}
+
+.info-sec-l{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-sec-l-img{
+    height: 127px;
+    width: 200px;
+}
+
+.info-sec-l-info p{
+    font-size: 18px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.prop-listing-img{
+    height: 250px;
+    width: 100%;
+    border-radius: 0.25em;
+    overflow: hidden;
+}
+
+.prop-bg{
+    height: 300px;
+    width: 100%;
+}
+
+.prop-info{
+    padding: 0 1em;
+}
+
+.prop-info p{
+    font-size: 18px;
+}
+
+footer{
+    width: 100%;
+    border-top: 1px solid #333;
+    padding: 1em 0;
+}
+
+@media(max-width:500px){
+    .bg-sec{
+        height: 700px;
+    }
+    .logo-sec{
+        height: 120px;
+        width: 260px;
+    }
+    .heading-sec h1{
+        font-size: 26px;
+    }
+
+        .h3-res{
+            font-size: 18px;
+        }
+        .h2-res{
+            display: inline;
+            font-size: 22px;
+        }
+    
+        .h4-res{
+            font-size: 18px;
+        }
+    
+        .info-sec-l-info p{
+            font-size: 16px;
+        }
+}
